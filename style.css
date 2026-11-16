@@ -1,0 +1,276 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: hsl(201, 11%, 66%);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 85%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 38px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 8px;
+  transition: 0.3s;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 3px 0 hsl(171, 66%, 35%), 0 10px 20px rgba(38, 186, 164, 0.25);
+}
+
+.btn-ios:hover {
+  opacity: 0.85;
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 3px 0 hsl(233, 100%, 58%), 0 10px 20px rgba(97, 115, 255, 0.25);
+}
+
+.btn-mac:hover {
+  opacity: 0.85;
+}
+
+.hero {
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 120px 0 80px;
+  text-align: center;
+}
+
+.main-logo {
+  width: 120px;
+  margin: 0 auto 50px;
+  display: block;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 18px;
+}
+
+.subtitle {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 70px;
+}
+
+.section-header h2 {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+
+.snippets-section {
+  padding: 70px 0;
+  overflow: hidden;
+}
+
+.snippets-content {
+  font-size: 0; 
+}
+
+.computer-img {
+  display: inline-block;
+  width: 55%;
+  vertical-align: middle;
+  position: relative;
+  left: -35px;
+  z-index: 1;
+}
+
+.snippets-features {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  padding-left: 60px;
+  font-size: 18px;
+}
+
+.feature-item {
+  max-width: 360px;
+  margin-bottom: 45px;
+}
+
+.feature-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+}
+
+.access-section {
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.devices-img img {
+  margin: 0 auto;
+  display: block;
+}
+
+.workflow-section {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.workflow-cards {
+  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1%;
+  vertical-align: top;
+  font-size: 18px;
+}
+
+.card img {
+  height: 40px;
+  margin: 0 auto 35px;
+  display: block;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+.partners-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.partners-section img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 150px;
+  margin: 0 32px;
+}
+
+.cta-section {
+  padding: 70px 0 130px;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+
+.footer {
+  background-color: hsl(220, 18%, 97%);
+  padding: 45px 0;
+}
+
+.footer-container {
+  font-size: 0;
+}
+
+.footer-left {
+  display: inline-block;
+  width: 75%;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.footer-logo {
+  display: inline-block;
+  width: 55px;
+  vertical-align: middle;
+  margin-right: 100px;
+}
+
+.footer-links {
+  display: inline-block;
+  vertical-align: middle;
+  width: 520px;
+  font-size: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  width: 170px;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.footer-links a {
+  color: hsl(210, 10%, 33%);
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.social-links {
+  display: inline-block;
+  width: 25%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-left: 22px;
+}
+
+.social-links a:hover img {
+  filter: invert(58%) sepia(56%) saturate(475%) hue-rotate(122deg) brightness(93%) contrast(91%);
+}
